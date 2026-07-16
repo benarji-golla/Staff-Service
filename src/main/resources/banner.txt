@@ -1,0 +1,25 @@
+                                                                                                                                   
+                                                                                                                                   
+BBBBBBBBBBBBBBBBB        EEEEEEEEEEEEEEEEEEEEEE     NNNNNNNN        NNNNNNNN     NNNNNNNN        NNNNNNNN     UUUUUUUU     UUUUUUUU
+B::::::::::::::::B       E::::::::::::::::::::E     N:::::::N       N::::::N     N:::::::N       N::::::N     U::::::U     U::::::U
+B::::::BBBBBB:::::B      E::::::::::::::::::::E     N::::::::N      N::::::N     N::::::::N      N::::::N     U::::::U     U::::::U
+BB:::::B     B:::::B     EE::::::EEEEEEEEE::::E     N:::::::::N     N::::::N     N:::::::::N     N::::::N     UU:::::U     U:::::UU
+  B::::B     B:::::B       E:::::E       EEEEEE     N::::::::::N    N::::::N     N::::::::::N    N::::::N      U:::::U     U:::::U 
+  B::::B     B:::::B       E:::::E                  N:::::::::::N   N::::::N     N:::::::::::N   N::::::N      U:::::D     D:::::U 
+  B::::BBBBBB:::::B        E::::::EEEEEEEEEE        N:::::::N::::N  N::::::N     N:::::::N::::N  N::::::N      U:::::D     D:::::U 
+  B:::::::::::::BB         E:::::::::::::::E        N::::::N N::::N N::::::N     N::::::N N::::N N::::::N      U:::::D     D:::::U 
+  B::::BBBBBB:::::B        E:::::::::::::::E        N::::::N  N::::N:::::::N     N::::::N  N::::N:::::::N      U:::::D     D:::::U 
+  B::::B     B:::::B       E::::::EEEEEEEEEE        N::::::N   N:::::::::::N     N::::::N   N:::::::::::N      U:::::D     D:::::U 
+  B::::B     B:::::B       E:::::E                  N::::::N    N::::::::::N     N::::::N    N::::::::::N      U:::::D     D:::::U 
+  B::::B     B:::::B       E:::::E       EEEEEE     N::::::N     N:::::::::N     N::::::N     N:::::::::N      U::::::U   U::::::U 
+BB:::::BBBBBB::::::B     EE::::::EEEEEEEE:::::E     N::::::N      N::::::::N     N::::::N      N::::::::N      U:::::::UUU:::::::U 
+B:::::::::::::::::B      E::::::::::::::::::::E     N::::::N       N:::::::N     N::::::N       N:::::::N       UU:::::::::::::UU  
+B::::::::::::::::B       E::::::::::::::::::::E     N::::::N        N::::::N     N::::::N        N::::::N         UU:::::::::UU    
+BBBBBBBBBBBBBBBBB        EEEEEEEEEEEEEEEEEEEEEE     NNNNNNNN         NNNNNNN     NNNNNNNN         NNNNNNN           UUUUUUUUU      
+                                                                                                                                   
+                                                                                                                                   
+                                                                                                                                   
+                                                                                                                                   
+                                                                                                                                   
+                                                                                                                                   
+                                                                                                                                   
