@@ -14,6 +14,5 @@ public class Constants {
 	
 	public static final String RETRIEVED = "Retrieved {} details for ID: {}";
 	
-	public static final String APPOINTMENT_EXISTS = "Doctor already has an appointment during this time.";
 	
 }
