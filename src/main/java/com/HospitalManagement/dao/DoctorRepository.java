@@ -1,6 +1,7 @@
 package com.HospitalManagement.dao;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -12,5 +13,7 @@ import com.HospitalManagement.model.DoctorDetails;
 public interface DoctorRepository extends JpaRepository<DoctorDetails, String>{
 	
 	List<DoctorDetails> findByFirstNameContainingIgnoreCase(String firstName);
+
+	Optional<DoctorDetails> findByFirstNameAndLastName(String firstName, String lastName);
 
 }
