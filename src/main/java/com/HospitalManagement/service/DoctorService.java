@@ -7,4 +7,8 @@ public interface DoctorService {
 
 	DoctorDetailsDTO registerDoctor(RegisterDoctorDTO doctorDto);
 
+	DoctorDetailsDTO getDoctor(String id);
+
+	DoctorDetailsDTO getDoctorWithName(String firstName, String lastName);
+
 }

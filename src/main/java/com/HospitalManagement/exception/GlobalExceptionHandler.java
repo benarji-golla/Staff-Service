@@ -23,5 +23,10 @@ public class GlobalExceptionHandler {
 	public ResponseEntity<String> DoctorServiceException(DoctorServiceException exception) {
 		return new ResponseEntity<>(exception.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
 	}
+	
+	@ExceptionHandler(DoctorNotFoundException.class)
+	public ResponseEntity<String> doctorNotFoundException(DoctorNotFoundException exception){
+		return new ResponseEntity<>(exception.getMessage(), HttpStatus.NOT_FOUND);
+	}
 
 }
