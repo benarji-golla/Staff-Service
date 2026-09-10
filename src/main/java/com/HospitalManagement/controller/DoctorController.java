@@ -42,4 +42,11 @@ public class DoctorController {
 		DoctorDetailsDTO doctor = doctorService.getDoctorWithName(firstName,lastName);
 		return ResponseEntity.ok(doctor);
 	}
+	
+	@GetMapping("/validateDoctor/{id}")
+	public ResponseEntity<Void> validateDoctor(@PathVariable String id){
+	     doctorService.validateById(id);
+	     return ResponseEntity.ok().build();
+	}
+	
 }
