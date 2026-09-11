@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
 
-import com.HospitalManagement.builder.DoctorBuilder;	
+import com.HospitalManagement.builder.DoctorBuilder;
 import com.HospitalManagement.dao.DoctorRepository;
 import com.HospitalManagement.dto.DoctorDetailsDTO;
 import com.HospitalManagement.dto.RegisterDoctorDTO;
@@ -80,6 +80,18 @@ public class DoctorServiceImpl implements DoctorService {
 					Constants.ERROR + " Unexpected error while fetching Doctor details with id: " + firstName +" "+ lastName);
 		}	
 	
+	}
+
+	@Override
+	public void validateById(String id) {
+
+		boolean exists	 = doctorRepository.existsById(id);
+		
+		if(!exists) {
+			throw new DoctorNotFoundException("Doctor" + Constants.NOT_FOUND + id);
+		}
+		logger.info(Constants.RETRIEVED, "Doctor", id );
+		
 	}
 
 }

@@ -11,4 +11,6 @@ public interface DoctorService {
 
 	DoctorDetailsDTO getDoctorWithName(String firstName, String lastName);
 
+	void validateById(String id);
+
 }
