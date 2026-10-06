@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.HospitalManagement.builder.DoctorBuilder;
 import com.HospitalManagement.dao.DoctorRepository;
+import com.HospitalManagement.dao.StaffRepository;
 import com.HospitalManagement.dto.DoctorDetailsDTO;
 import com.HospitalManagement.dto.RegisterDoctorDTO;
 import com.HospitalManagement.exception.DoctorNotFoundException;
@@ -22,6 +23,7 @@ import lombok.RequiredArgsConstructor;
 public class DoctorServiceImpl implements DoctorService {
 
 	private final DoctorRepository doctorRepository;
+	private final StaffRepository  staffRepository;
 
 	private final Logger logger = LoggerFactory.getLogger(DoctorServiceImpl.class);
 
@@ -84,12 +86,9 @@ public class DoctorServiceImpl implements DoctorService {
 
 	@Override
 	public void validateById(String id) {
+		doctorRepository.findById(id)
+		.orElseThrow(() -> new DoctorNotFoundException("Doctor" + Constants.NOT_FOUND + id));
 
-		boolean exists	 = doctorRepository.existsById(id);
-		
-		if(!exists) {
-			throw new DoctorNotFoundException("Doctor" + Constants.NOT_FOUND + id);
-		}
 		logger.info(Constants.RETRIEVED, "Doctor", id );
 		
 	}
